@@ -1,4 +1,10 @@
 envs {
   envs = [
+    {
+      name = "new one"
+      accountToServiceName = {
+        dummy = "dummy"
+      }
+    },
   ]
 }

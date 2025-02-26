@@ -1,0 +1,7 @@
+salesforce.SharingRules MikiObject__c {
+  fullName = "MikiObject__c"
+  _parent = [
+    salesforce.MikiObject__c,
+  ]
+  _alias = "MikiObject__c"
+}

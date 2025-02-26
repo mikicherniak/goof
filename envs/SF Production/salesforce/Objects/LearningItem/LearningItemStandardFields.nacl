@@ -1,0 +1,106 @@
+type salesforce.LearningItem {
+  salesforce.Unknown AssignedCount {
+    apiName = "LearningItem.AssignedCount"
+    _hidden_value = true
+  }
+  salesforce.Unknown CompletedCount {
+    apiName = "LearningItem.CompletedCount"
+    _hidden_value = true
+  }
+  salesforce.Lookup CustomLearningItemTypeId {
+    apiName = "LearningItem.CustomLearningItemTypeId"
+    _hidden_value = true
+  }
+  salesforce.Lookup EnablementProgramId {
+    apiName = "LearningItem.EnablementProgramId"
+    _hidden_value = true
+  }
+  salesforce.Unknown LearningContentId {
+    apiName = "LearningItem.LearningContentId"
+    _hidden_value = true
+  }
+  salesforce.Lookup LearningLinkId {
+    apiName = "LearningItem.LearningLinkId"
+    _hidden_value = true
+  }
+  salesforce.Unknown Name {
+    apiName = "LearningItem.Name"
+    _hidden_value = true
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "LearningItem.OwnerId"
+    relationshipName = "Owner"
+    label = "Owner ID"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Picklist Type {
+    apiName = "LearningItem.Type"
+    restricted = true
+    _required = true
+    label = "Type"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  serviceid Id {
+    apiName = "LearningItem.Id"
+    label = "Learning Item ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "LearningItem.IsDeleted"
+    defaultValue = false
+    label = "Deleted"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "LearningItem.CreatedDate"
+    label = "Created Date"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "LearningItem.CreatedById"
+    relationshipName = "CreatedBy"
+    label = "Created By ID"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "LearningItem.LastModifiedDate"
+    label = "Last Modified Date"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "LearningItem.LastModifiedById"
+    relationshipName = "LastModifiedBy"
+    label = "Last Modified By ID"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "LearningItem.SystemModstamp"
+    label = "System Modstamp"
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
+}

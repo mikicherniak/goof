@@ -11,9 +11,9 @@ salesforce.CaseSettings {
   caseMergeInLightning = false
   closeCaseThroughStatusChange = false
   defaultCaseFeedLayoutOn = true
-  defaultCaseOwner = "product-team-envs+sfenv2@salto.io"
+  defaultCaseOwner = "product-team-envs+sfenv1@salto.io"
   defaultCaseOwnerType = "User"
-  defaultCaseUser = "product-team-envs+sfenv2@salto.io"
+  defaultCaseUser = "product-team-envs+sfenv1@salto.io"
   emailToCase = {
     enableEmailToCase = false
   }

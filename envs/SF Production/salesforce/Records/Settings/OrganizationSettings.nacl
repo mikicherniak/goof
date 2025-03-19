@@ -2,7 +2,7 @@ salesforce.Organization {
   Address = {
     country = "IL"
   }
-  PrimaryContact = "Product Team env2"
+  PrimaryContact = "Product Team1"
   DefaultLocaleSidKey = "iw_IL"
   TimeZoneSidKey = "Asia/Jerusalem"
   LanguageLocaleKey = "en_US"

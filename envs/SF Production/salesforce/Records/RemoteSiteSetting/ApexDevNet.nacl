@@ -2,6 +2,6 @@ salesforce.RemoteSiteSetting ApexDevNet {
   fullName = "ApexDevNet"
   disableProtocolSecurity = false
   isActive = true
-  url = "http://www.apexdevnet-edit.com"
+  url = "http://www.apexdevnet.com"
   _alias = "ApexDevNet"
 }

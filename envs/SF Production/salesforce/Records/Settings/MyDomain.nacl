@@ -15,7 +15,7 @@ salesforce.MyDomainSettings {
   enableShareBrowserSessionIOSForAuth = false
   instancedUrlRedirectHandling = "NoRedirect"
   logRedirections = false
-  myDomainName = "salto-cf-dev-ed"
+  myDomainName = "salto-2f-dev-ed"
   myDomainSuffix = "MySalesforce"
   onboardCustomerSpecificSuffix = false
   redirectForceComSiteUrls = true

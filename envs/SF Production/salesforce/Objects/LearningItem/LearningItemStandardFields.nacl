@@ -31,9 +31,6 @@ type salesforce.LearningItem {
     apiName = "LearningItem.OwnerId"
     relationshipName = "Owner"
     label = "Owner ID"
-    createable = false
-    updateable = false
-    queryable = true
     _hidden_value = true
   }
   salesforce.Picklist Type {
@@ -41,9 +38,6 @@ type salesforce.LearningItem {
     restricted = true
     _required = true
     label = "Type"
-    createable = false
-    updateable = false
-    queryable = true
     _hidden_value = true
   }
   serviceid Id {
@@ -56,51 +50,33 @@ type salesforce.LearningItem {
     apiName = "LearningItem.IsDeleted"
     defaultValue = false
     label = "Deleted"
-    createable = false
-    updateable = false
-    queryable = true
     _hidden_value = true
   }
   salesforce.DateTime CreatedDate {
     apiName = "LearningItem.CreatedDate"
     label = "Created Date"
-    createable = false
-    updateable = false
-    queryable = true
     _hidden_value = true
   }
   salesforce.Lookup CreatedById {
     apiName = "LearningItem.CreatedById"
     relationshipName = "CreatedBy"
     label = "Created By ID"
-    createable = false
-    updateable = false
-    queryable = true
     _hidden_value = true
   }
   salesforce.DateTime LastModifiedDate {
     apiName = "LearningItem.LastModifiedDate"
     label = "Last Modified Date"
-    createable = false
-    updateable = false
-    queryable = true
     _hidden_value = true
   }
   salesforce.Lookup LastModifiedById {
     apiName = "LearningItem.LastModifiedById"
     relationshipName = "LastModifiedBy"
     label = "Last Modified By ID"
-    createable = false
-    updateable = false
-    queryable = true
     _hidden_value = true
   }
   salesforce.DateTime SystemModstamp {
     apiName = "LearningItem.SystemModstamp"
     label = "System Modstamp"
-    createable = false
-    updateable = false
-    queryable = true
     _hidden_value = true
   }
 }

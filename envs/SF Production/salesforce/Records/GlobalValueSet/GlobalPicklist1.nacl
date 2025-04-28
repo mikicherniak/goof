@@ -11,6 +11,12 @@ salesforce.GlobalValueSet GlobalPicklist1 {
       default = false
       label = "optionTHREE"
     },
+    {
+      fullName = "option2"
+      default = false
+      isActive = false
+      label = "option2"
+    },
   ]
   masterLabel = "GlobalPicklist1"
   sorted = false

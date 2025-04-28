@@ -1,0 +1,7 @@
+salesforce.SharingRules LiorCustomObject__c {
+  fullName = "LiorCustomObject__c"
+  _parent = [
+    salesforce.LiorCustomObject__c,
+  ]
+  _alias = "LiorCustomObject__c"
+}

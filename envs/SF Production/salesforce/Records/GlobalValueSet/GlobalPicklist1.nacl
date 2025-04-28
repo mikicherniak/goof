@@ -1,0 +1,23 @@
+salesforce.GlobalValueSet GlobalPicklist1 {
+  fullName = "GlobalPicklist1"
+  customValue = [
+    {
+      fullName = "option1"
+      default = false
+      label = "option1"
+    },
+    {
+      fullName = "option2"
+      default = false
+      label = "option2"
+    },
+    {
+      fullName = "optionTHREE"
+      default = false
+      label = "optionTHREE"
+    },
+  ]
+  masterLabel = "GlobalPicklist1"
+  sorted = false
+  _alias = "GlobalPicklist1"
+}

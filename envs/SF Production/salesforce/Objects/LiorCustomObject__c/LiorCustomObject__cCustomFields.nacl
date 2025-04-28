@@ -1,0 +1,36 @@
+type salesforce.LiorCustomObject__c {
+  salesforce.Picklist LiorsPicklist1__c {
+    apiName = "LiorCustomObject__c.LiorsPicklist1__c"
+    label = "LiorsPicklist1"
+    trackTrending = false
+    valueSet = [
+      {
+        fullName = "a"
+        default = false
+        label = "a"
+      },
+      {
+        fullName = "b"
+        default = false
+        label = "b"
+      },
+      {
+        fullName = "c"
+        default = false
+        label = "c"
+      },
+      {
+        fullName = "d"
+        default = false
+        label = "d"
+      },
+      {
+        fullName = "e"
+        default = false
+        label = "e"
+      },
+    ]
+    sorted = false
+    restricted = true
+  }
+}

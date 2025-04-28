@@ -7,11 +7,6 @@ salesforce.GlobalValueSet GlobalPicklist1 {
       label = "option1"
     },
     {
-      fullName = "option2"
-      default = false
-      label = "option2"
-    },
-    {
       fullName = "optionTHREE"
       default = false
       label = "optionTHREE"

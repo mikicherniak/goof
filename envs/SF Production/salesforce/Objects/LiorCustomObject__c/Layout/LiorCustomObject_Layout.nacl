@@ -16,6 +16,10 @@ salesforce.Layout LiorCustomObject__c_LiorCustomObject_Layout@uubs {
               behavior = "Edit"
               field = salesforce.LiorCustomObject__c.field.LiorsPicklist1__c
             },
+            {
+              behavior = "Edit"
+              field = salesforce.LiorCustomObject__c.field.LiorPicklist2__c
+            },
           ]
         },
         {

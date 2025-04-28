@@ -1,4 +1,11 @@
 type salesforce.LiorCustomObject__c {
+  salesforce.Picklist LiorPicklist2__c {
+    apiName = "LiorCustomObject__c.LiorPicklist2__c"
+    label = "LiorPicklist2"
+    trackTrending = false
+    valueSetName = salesforce.GlobalValueSet.instance.GlobalPicklist1
+    restricted = true
+  }
   salesforce.Picklist LiorsPicklist1__c {
     apiName = "LiorCustomObject__c.LiorsPicklist1__c"
     label = "LiorsPicklist1"

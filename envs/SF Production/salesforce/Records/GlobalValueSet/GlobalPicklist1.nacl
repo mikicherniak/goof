@@ -1,23 +1,30 @@
 salesforce.GlobalValueSet GlobalPicklist1 {
   fullName = "GlobalPicklist1"
-  customValue = [
-    {
-      fullName = "option1"
-      default = false
-      label = "option1"
-    },
-    {
-      fullName = "optionTHREE"
-      default = false
-      label = "optionTHREE"
-    },
-    {
-      fullName = "option2"
-      default = false
-      isActive = false
-      label = "option2"
-    },
-  ]
+  customValue = {
+    values = {
+      option1 = {
+        fullName = "option1"
+        default = false
+        label = "option1"
+      }
+      optionTHREE = {
+        fullName = "optionTHREE"
+        default = false
+        label = "optionTHREE"
+      }
+      option2 = {
+        fullName = "option2"
+        default = false
+        isActive = false
+        label = "option2"
+      }
+    }
+    order = [
+      salesforce.GlobalValueSet.instance.GlobalPicklist1.customValue.values.option1,
+      salesforce.GlobalValueSet.instance.GlobalPicklist1.customValue.values.optionTHREE,
+      salesforce.GlobalValueSet.instance.GlobalPicklist1.customValue.values.option2,
+    ]
+  }
   masterLabel = "GlobalPicklist1"
   sorted = false
   _alias = "GlobalPicklist1"

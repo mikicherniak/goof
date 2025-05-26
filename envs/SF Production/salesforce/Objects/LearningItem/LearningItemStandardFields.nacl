@@ -1,31 +1,24 @@
 type salesforce.LearningItem {
   salesforce.Unknown AssignedCount {
     apiName = "LearningItem.AssignedCount"
-    _hidden_value = true
   }
   salesforce.Unknown CompletedCount {
     apiName = "LearningItem.CompletedCount"
-    _hidden_value = true
   }
   salesforce.Lookup CustomLearningItemTypeId {
     apiName = "LearningItem.CustomLearningItemTypeId"
-    _hidden_value = true
   }
   salesforce.Lookup EnablementProgramId {
     apiName = "LearningItem.EnablementProgramId"
-    _hidden_value = true
   }
   salesforce.Unknown LearningContentId {
     apiName = "LearningItem.LearningContentId"
-    _hidden_value = true
   }
   salesforce.Lookup LearningLinkId {
     apiName = "LearningItem.LearningLinkId"
-    _hidden_value = true
   }
   salesforce.Unknown Name {
     apiName = "LearningItem.Name"
-    _hidden_value = true
   }
   salesforce.Lookup OwnerId {
     apiName = "LearningItem.OwnerId"
@@ -38,7 +31,6 @@ type salesforce.LearningItem {
     restricted = true
     _required = true
     label = "Type"
-    _hidden_value = true
   }
   serviceid Id {
     apiName = "LearningItem.Id"

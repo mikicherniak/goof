@@ -163,7 +163,6 @@ type salesforce.DigitalWallet {
   salesforce.Address PaymentMethodAddress {
     apiName = "DigitalWallet.PaymentMethodAddress"
     label = "Payment Method Address"
-    _hidden_value = true
   }
   salesforce.Text BillingName {
     apiName = "DigitalWallet.BillingName"

@@ -95,7 +95,7 @@ type salesforce.Incident {
   salesforce.Lookup ResolvedById {
     apiName = "Incident.ResolvedById"
     relationshipName = "ResolvedBy"
-    label = "User ID"
+    label = "Resolved By ID"
   }
   salesforce.DateTime SlaExitDate {
     apiName = "Incident.SlaExitDate"

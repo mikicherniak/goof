@@ -54,6 +54,14 @@ salesforce.RealTimeEventSettings {
       isEnabled = false
     },
     {
+      entityName = "LoginAnomalyEventStore"
+      isEnabled = false
+    },
+    {
+      entityName = "LoginAnomalyEvent"
+      isEnabled = false
+    },
+    {
       entityName = "IdentityVerificationEvent"
       isEnabled = false
     },

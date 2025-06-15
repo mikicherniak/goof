@@ -82,6 +82,7 @@ type salesforce.Incident {
   salesforce.Picklist ReportedMethod {
     apiName = "Incident.ReportedMethod"
     label = "Reported Method"
+    restricted = false
   }
   salesforce.DateTime ResolutionDateTime {
     apiName = "Incident.ResolutionDateTime"
